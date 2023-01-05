@@ -8,6 +8,9 @@ Example boilerplate using
 
 <a href="https://storyblok-boilerplate.vercel.app/">Live example</a>
 
+<br>
+<br>
+
 ## Setup
 
 1. Init the repo
