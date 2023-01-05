@@ -10,18 +10,18 @@ export default function Page({ story }) {
   story = useStoryblokState(story);
  
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>{story ? story.name : "My Site"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
  
-      <header>
+      <header className="bg-red-200">
         <h1>{story ? story.name : "My Site"}</h1>
       </header>
  
       <StoryblokComponent blok={story.content} />
-    </div>
+    </>
   );
 }
  

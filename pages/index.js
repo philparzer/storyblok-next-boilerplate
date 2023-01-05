@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
  
 import {
   useStoryblokState,
@@ -11,7 +10,7 @@ export default function Home({ story, preview }) {
   story = useStoryblokState(story, {}, preview);
  
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -22,7 +21,7 @@ export default function Home({ story, preview }) {
       </header>
  
       <StoryblokComponent blok={story.content} />
-    </div>
+    </>
   );
 }
  
