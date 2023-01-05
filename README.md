@@ -54,5 +54,15 @@ Navigate to https://localhost:3010 or use the Storyblok visual editor
 
 <br>
 <br>
+
+## Deploy
+
+- I recommend using Vercel
+- Set the environment variables in Vercel before building
+> **Warning** If you get a build error, make sure you have published your pages at least once
+- Add your live URLs in Storyblok, following the same schema as before (preview, exit preview)
+> **Note** you'll most likely want your default URL to point at your live url and not your local dev server (you can add localhost as separate URLs)
+
 ## Additional Reference:
+
 <a href="https://www.storyblok.com/tp/add-a-headless-cms-to-next-js-in-5-minutes"> Storyblok Tutorial</a>
