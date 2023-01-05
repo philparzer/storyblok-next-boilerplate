@@ -9,7 +9,6 @@ Example boilerplate using
 <a href="https://storyblok-boilerplate.vercel.app/">Live example</a>
 
 <br>
-<br>
 
 ## Setup
 
@@ -56,7 +55,6 @@ You're all set 🎉
 Navigate to https://localhost:3010 or use the Storyblok visual editor
 
 <br>
-<br>
 
 ## Deploy
 
@@ -66,7 +64,6 @@ Navigate to https://localhost:3010 or use the Storyblok visual editor
 - Add your live URLs in Storyblok, following the same schema as before (preview, exit preview)
 > **Note** you'll most likely want your default URL to point at your live url and not your local dev server (you can add localhost as separate URLs)
 
-<br>
 <br>
 
 ## Additional Reference:
