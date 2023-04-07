@@ -69,4 +69,5 @@ Navigate to https://localhost:3010 or use the Storyblok visual editor
 ## Additional Reference:
 
 <a href="https://www.storyblok.com/tp/add-a-headless-cms-to-next-js-in-5-minutes"> Storyblok Tutorial</a>
+
 <a href="https://www.storyblok.com/tp/manage-multilingual-content-in-storyblok-and-next-js"> Localization</a> (TODO: this possibly needs further explanation)
